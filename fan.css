@@ -1,0 +1,81 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.fan{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: crimson;
+    position: relative;
+    border: 5px solid gold;
+    left: 706px;
+    right: 40px;
+    top: 242px;
+    bottom: 20px;
+}
+
+.fan:hover {
+    transform: rotate(360deg);
+    transition: 2s linear;
+}
+
+
+
+
+.box{
+    width: 46px;
+    height: 180px;
+    background-color: black;
+    border-radius: 2px;
+    border: 2px solid black;
+    /* left: 667px;
+    top: 218px; */
+    position: relative;
+    
+    left: 24px;
+    top: 61px
+    
+}
+
+.box1{
+    width: 46px;
+    height: 180px;
+    background-color: black;
+    border-radius: 2px;
+    border: 2px solid black;
+    /* right:  667px;
+    top: 218px; */
+    position: absolute;
+    left: 3px;
+    top: -228px;
+    
+    
+  
+}
+.box2{
+    height: 45px;
+    width: 183px;
+    background-color: black;
+    position: absolute;
+    
+    left: 49px;
+    top: -37px;
+}
+
+.box3{
+    height: 47px;
+    width: 196px;
+    background-color: black;
+    position: absolute;
+    
+    left: -205px;
+    top: -41px;
+}
+
+
+
+
+
+
